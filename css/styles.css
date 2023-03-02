@@ -308,7 +308,7 @@ h2 {
     .card-text,
     .card-tags,
     .card-btn {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .card-btn {
         width: 140px;
@@ -438,7 +438,7 @@ textarea {
         margin-top: 20px;
         width: 90%; 
         order: 2;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .datos {
@@ -454,9 +454,8 @@ textarea {
     .datos a {
         font-size: 1.2rem;
     }
-
     .submit-btn {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 
