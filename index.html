@@ -18,9 +18,6 @@
             <li><a href="#proyectos" class="">Proyectos</a></li>
             <li><a href="#contacto" class="">Contacto</a></li>
         </ul>
-        <!-- <button class="">
-            =
-        </button> -->
     </nav>
 
 <!----------------------------------------------------------------------- SOBRE MÍ -->
@@ -32,20 +29,16 @@
         />
 
         <div class="sobremi-texto">
-            <h2><span style="color: tomato;">Hola</span> me llamo Damián Zabcic.</h2>
+            <h2><span>Hola me llamo Damián</h2>
             <p>
-            <em>
-                Soy Analista en Diseño Digital y Desarrollador Front-end.
+                Soy Analista en Diseño Digital y Desarrollador Frontend.
+                Mi formación la obtuve a través de cursos oficiales y también 
+                de forma autodidacta.
                 Vivo en Argentina y actualmente estoy buscando empleo como 
-                Desarrollador Front-end.
-            </em>
+                Desarrollador Frontend.
             </p>
             <br>
             <!-- <a href="cv.pdf">Ver mi curriculum CV</a> -->
-        </div>
-
-        <div class="nombre-profesion">  <!-- solo movil -->
-            <div class="profesion">Desarrollador front-end</div>
         </div>
 
     </section>
@@ -54,32 +47,62 @@
     <section class="habilidades" id="habilidades">
         <h2>Habilidades</h2>
         <div class="title-line"></div>
+
         <div class="habilidades-container">
-            <div>
-                <img src="images/html.png" alt="html"/>
-                <h4>html</h4>
+            <h3>Frontend</h3>
+            <div class="habilidades-frontend">
+                <div>
+                    <img class="iconos" src="icons/html.svg" alt="html"/>
+                    <h4>html</h4>
+                </div>
+                <div>
+                    <img class="iconos" src="icons/css.svg" alt="css"/>
+                    <h4>css</h4>
+                </div>
+                <div>
+                    <img class="iconos" src="icons/javascript.svg" alt="javascript"/>
+                    <h4>javascript</h4>
+                </div>
+                <div>
+                    <img class="iconos" src="icons/bootstrap.svg" alt="bootstrap"/>
+                    <h4>bootstrap</h4>
+                </div>
+                <div>
+                    <img class="iconos" src="icons/react.svg" alt="react"/>
+                    <h4>react</h4>
+                </div>
+                <div>
+                    <img class="iconos" src="icons/git.svg" alt="git"/>
+                    <h4>git</h4>
+                </div>
             </div>
-            <div>
-                <img src="images/css.png" alt="css"/>
-                <h4>css</h4>
+
+            <h3>Diseño digital</h3>
+            <div class="habilidades-diseno">
+                <div>
+                    <img class="iconos" src="icons/photoshop.svg" alt="photoshop"/>
+                    <h4>photoshop</h4>
+                </div>
+                <div>
+                    <img class="iconos" src="icons/illustrator.svg" alt="illustrator"/>
+                    <h4>illustrator</h4>
+                </div>
+                <div>
+                    <img class="iconos" src="icons/gimp.svg" alt="gimp"/>
+                    <h4>gimp</h4>
+                </div>
+                <div>
+                    <img class="iconos" src="icons/figma.svg" alt="figma"/>
+                    <h4>figma</h4>
+                </div>
+                <div>
+                    <img class="iconos" src="icons/blender.svg" alt="blender"/>
+                    <h4>blender</h4>
+                </div>
             </div>
-            <div>
-                <img src="images/javascript.png" alt="javascript"/>
-                <h4>javascript</h4>
-            </div>
-            <div>
-                <img src="images/bootstrap.png" alt="bootstrap"/>
-                <h4>bootstrap</h4>
-            </div>
-            <div>
-                <img src="images/react.png" alt="react"/>
-                <h4>react</h4>
-            </div>
-            <div>
-                <img src="images/python.png" alt="python"/>
-                <h4>python</h4>
-            </div>
+
         </div>
+
     </section>
 
 <!----------------------------------------------------------------------- PROYECTOS -->
@@ -87,45 +110,101 @@
         <h2>Últimos proyectos</h2>
         <div class="title-line"></div>
         <div class="container-flexbox">
-
-            <!-- CONTADOR -->
-            <div class="proyecto-container">
-                <img class="proyecto-imagen" src="images/calc.png" alt="">
-                <div class="overlay">
-                    <a href="#">Ver proyecto</a>
+<!---------------------------------------------------- CALCULADORA -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/calculadora.png" alt="">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                        <h3>Calculadora</h3>
+                    </div>
+                    <div class="card-text">
+                        Simple calculadora realizada como proyecto de presentación para mi portfolio.
+                    </div>
+                    <div class="card-tags">
+                        <span>html</span> <span>css</span> <span>javascript</span> <span>react</span>
+                    </div>
+                    <a class="card-btn" href="https://damianzabcic.github.io/calculadora/">Ver proyecto</a>
                 </div>
             </div>
-
-             <!-- CONTADOR -->
-            <div class="proyecto-container">
-                <img class="proyecto-imagen" src="images/calc.png" alt="">
-                <div class="overlay">
-                    <a href="#">Ver proyecto</a>
+<!---------------------------------------------------- CONTADOR -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/contador.png" alt="">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                        <h3>Contador</h3>
+                    </div>
+                    <div class="card-text">
+                        Simple calculadora realizada como proyecto de presentación para mi portfolio.
+                    </div>
+                    <div class="card-tags">
+                        <span>html</span> <span>css</span> <span>javascript</span> <span>react</span> 
+                    </div>
+                    <a class="card-btn" href="https://damianzabcic.github.io/contador/">Ver proyecto</a>
                 </div>
             </div>
-
-            <!-- CONTADOR -->
-            <div class="proyecto-container">
-                <img class="proyecto-imagen" src="images/calc.png" alt="">
-                <div class="overlay">
-                    <a href="#">Ver proyecto</a>
+<!---------------------------------------------------- LOGIN -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/login.png" alt="">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                        <h3>Login</h3>
+                    </div>
+                    <div class="card-text">
+                        Simple calculadora realizada como proyecto de presentación para mi portfolio.
+                    </div>
+                    <div class="card-tags">
+                        <span>html</span> <span>css</span> <span>javascript</span>
+                    </div>
+                    <a class="card-btn" href="https://damianzabcic.github.io/login/">Ver proyecto</a>
                 </div>
             </div>
-
-            <!-- CONTADOR -->
-            <div class="proyecto-container">
-                <img class="proyecto-imagen" src="images/calc.png" alt="">
-                <div class="overlay">
-                    <a href="#">Ver proyecto</a>
+<!---------------------------------------------------- TAREAS -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/tareas.png" alt="">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                        <h3>Tareas</h3>
+                    </div>
+                    <div class="card-text">
+                        Simple calculadora realizada como proyecto de presentación para mi portfolio.
+                    </div>
+                    <div class="card-tags">
+                        <span>html</span> <span>css</span> <span>javascript</span> <span>react</span> 
+                    </div>
+                    <a class="card-btn" href="https://damianzabcic.github.io/tareas/">Ver proyecto</a>
+                </div>
+            </div>
+<!---------------------------------------------------- COMENTARIOS -->
+            <div class="card">
+                <div class="card-image">
+                    <img style="filter: grayscale(100%);" src="images/comentarios.png" alt="">
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                        <h3>Comentarios</h3>
+                    </div>
+                    <div class="card-text">
+                        Simple calculadora realizada como proyecto de presentación para mi portfolio.
+                    </div>
+                    <div class="card-tags">
+                        <span>html</span> <span>css</span> <span>javascript</span> <span>react</span> 
+                    </div>
+                    <a class="card-btn" href="https://damianzabcic.github.io/comentarios/">Ver proyecto</a>
                 </div>
             </div>
 
         </div>
             
 <!-- MAS PROYECTOS -->
-            <div>
-                <button class="proyectos-boton">Ver más proyectos</button>
-            </div>
+        <!-- <a class="card-btn" href="#">Ver más proyectos</a> -->
 
     </section>
 
@@ -138,18 +217,18 @@
                 <div class="formulario-contacto">
                     <form action="">
                         <div class="formulario-control">
-                            <label for="Nombre">NOMBRE</label>
-                            <input type="text" id="name" name="sender-name" placeholder="Escribí tu nombre" class="input-field" required>
+                            <label for="Nombre">Nombre</label>
+                            <input type="text" id="name" name="sender-name" placeholder="" class="input-field" required>
                         </div>
 
                         <div class="formulario-control">
-                            <label for="email">MAIL</label>
-                            <input type="email" id="email" name="sender-email" placeholder="Ingresá tu mail" class="input-field" required>
+                            <label for="email">Mail</label>
+                            <input type="email" id="email" name="sender-email" placeholder="" class="input-field" required>
                         </div>
 
                         <div class="formulario-control">
-                            <label for="mensaje">MENSAJE</label>
-                            <textarea id="mensaje" cols="60" rows="10" placeholder="Dejame tu mensaje" name="mensaje" class="input-field" required></textarea>
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" cols="60" rows="10" placeholder="" name="mensaje" class="input-field" required></textarea>
                         </div>
 
                         <input type="submit" value="Enviar" id="submit-btn" class="submit-btn"/>
@@ -160,10 +239,10 @@
         <!-- datos de contacto -->
             <div class="datos">
                 <div class="mail">
-                    <i class="bi bi-envelope-fill"></i><a href="mailto:da.zabcic@gmail.com"><strong>da.zabcic@gmail.com</strong></a>
+                    <i class="bi bi-envelope-fill"></i><a href="mailto:da.zabcic@gmail.com">da.zabcic@gmail.com</a>
                 </div>
                 <div class="linkedin">
-                    <i class="bi bi-linkedin"></i><a href="www.google.com"><strong>linkedin</strong></a>
+                    <i class="bi bi-linkedin"></i><a href="www.google.com">linkedin</a>
                 </div>
             </div>
         </div>
