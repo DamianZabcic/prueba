@@ -205,7 +205,7 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    padding: 40px;
+    padding: 35px;
     border-radius: 10px;
     margin-bottom: 30px;
     background-color: skyblue;
@@ -217,6 +217,18 @@ h2 {
     height: 60px;
 }
 
+.icono-javascript {
+    margin-left: 8px;
+}
+
+.icono-gimp {
+    margin-left: 8px;
+}
+
+.icono-figma {
+    margin-right: 5px;
+}
+
 @media only screen and (max-width: 500px) { 
     .habilidades-container h3 {
         font-size: 1.4rem;
@@ -226,6 +238,15 @@ h2 {
         width: 90%;
         gap: 40px 30px;
         justify-content: space-between;
+    }
+    .icono-javascript {
+        margin-left: 10px;
+    }
+    .icono-gimp {
+        margin-left: 10px;
+    }
+    .icono-figma {
+        margin-right: 3px;
     }
 }
 
@@ -282,7 +303,7 @@ h2 {
 .card-tags span {
     color: skyblue;
     background-color: var(--fondo-negro);
-    padding: 3px 9px;
+    padding: 2px 9px 4px 9px;
     border-radius: 10px;
     font-size: smaller;
 }
