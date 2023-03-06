@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Damian Zabcic - Programacion</title>
+    <title>Damian Zabcic - Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -47,60 +47,69 @@
         <div class="title-line"></div>
 
         <div class="habilidades-container">
-            <h3>Frontend</h3>
-            <div class="habilidades-frontend">
-                <div>
-                    <img class="iconos" src="icons/html.svg" alt="html"/>
-                    <h4>html</h4>
+
+            <div class="habilidades-container-columna">
+
+                <h3>Frontend</h3>
+                <div class="habilidades-frontend">
+                    <div class="icono-container">
+                        <img class="iconos" src="icons/html.svg" alt="html"/>
+                        <h4>html</h4>
+                    </div>
+                    <div class="icono-container">
+                        <img class="iconos" src="icons/css.svg" alt="css"/>
+                        <h4>css</h4>
+                    </div>
+                    <div class="icono-container">
+                        <img class="iconos" src="icons/javascript.svg" alt="javascript"/>
+                        <h4>javascript</h4>
+                    </div>
+                    <div class="icono-container">
+                        <img class="iconos" src="icons/bootstrap.svg" alt="bootstrap"/>
+                        <h4>bootstrap</h4>
+                    </div>
+                    <div class="icono-container">
+                        <img class="iconos" src="icons/react.svg" alt="react"/>
+                        <h4>react</h4>
+                    </div>
+                    <div class="icono-container">
+                        <img class="iconos" src="icons/git.svg" alt="git"/>
+                        <h4>git</h4>
+                    </div>
                 </div>
-                <div class="icono-javascript">
-                    <img class="iconos" src="icons/css.svg" alt="css"/>
-                    <h4>css</h4>
-                </div>
-                <div>
-                    <img class="iconos" src="icons/javascript.svg" alt="javascript"/>
-                    <h4>javascript</h4>
-                </div>
-                <div>
-                    <img class="iconos" src="icons/bootstrap.svg" alt="bootstrap"/>
-                    <h4>bootstrap</h4>
-                </div>
-                <div>
-                    <img class="iconos" src="icons/react.svg" alt="react"/>
-                    <h4>react</h4>
-                </div>
-                <div>
-                    <img class="iconos" src="icons/git.svg" alt="git"/>
-                    <h4>git</h4>
-                </div>
+
             </div>
 
-            <h3>Diseño digital</h3>
-            <div class="habilidades-diseno">
-                <div>
-                    <img class="iconos" src="icons/photoshop.svg" alt="photoshop"/>
-                    <h4>photoshop</h4>
+            <div class="habilidades-container-columna">
+
+                <h3>Diseño digital</h3>
+                <div class="habilidades-diseno">
+                    <div class="icono-container">
+                        <img class="iconos" src="icons/photoshop.svg" alt="photoshop"/>
+                        <h4>photoshop</h4>
+                    </div>
+                    <div class="icono-container">
+                        <img class="iconos" src="icons/illustrator.svg" alt="illustrator"/>
+                        <h4>illustrator</h4>
+                    </div>
+                    <div class="icono-container">
+                        <img class="iconos" src="icons/inkscape.svg" alt="inkscape"/>
+                        <h4>inkscape</h4>
+                    </div>
+                    <div class="icono-container">
+                        <img class="iconos" src="icons/blender.svg" alt="blender"/>
+                        <h4>blender</h4>
+                    </div>
+                    <div class="icono-container">
+                        <img class="iconos" src="icons/gimp.svg" alt="gimp"/>
+                        <h4>gimp</h4>
+                    </div>
+                    <div class="icono-container">
+                        <img class="iconos" src="icons/figma.svg" alt="figma"/>
+                        <h4>figma</h4>
+                    </div>
                 </div>
-                <div>
-                    <img class="iconos" src="icons/illustrator.svg" alt="illustrator"/>
-                    <h4>illustrator</h4>
-                </div>
-                <div class="icono-figma">
-                    <img class="iconos" src="icons/figma.svg" alt="figma"/>
-                    <h4>figma</h4>
-                </div>
-                <div class="icono-gimp">
-                    <img class="iconos" src="icons/gimp.svg" alt="gimp"/>
-                    <h4>gimp</h4>
-                </div>
-                <div>
-                    <img class="iconos" src="icons/inkscape.svg" alt="inkscape"/>
-                    <h4>inkscape</h4>
-                </div>
-                <div>
-                    <img class="iconos" src="icons/blender.svg" alt="blender"/>
-                    <h4>blender</h4>
-                </div>
+
             </div>
 
         </div>
@@ -235,24 +244,26 @@
         <div class="contacto-contenedor">
             <div class="formulario-contenedor">
                 <div class="formulario-contacto">
-                    <form action="">
+                    
+                    <form action="https://formsubmit.co/8a17875e3236db0aabb293bfa12351ba" method="POST">
                         <div class="formulario-control">
                             <label for="Nombre">Nombre</label>
-                            <input type="text" id="name" name="sender-name" placeholder="" class="input-field" required>
+                            <input type="text" id="name" name="name" placeholder="" class="input-field" required>
                         </div>
-
                         <div class="formulario-control">
                             <label for="email">Mail</label>
-                            <input type="email" id="email" name="sender-email" placeholder="" class="input-field" required>
+                            <input type="email" id="email" name="email" placeholder="" class="input-field" required>
                         </div>
-
                         <div class="formulario-control">
                             <label for="mensaje">Mensaje</label>
                             <textarea id="mensaje" cols="60" rows="10" placeholder="" name="mensaje" class="input-field" required></textarea>
                         </div>
-
                         <input type="submit" value="Enviar" id="submit-btn" class="submit-btn"/>
+
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/envio.html">
+                        <input type="hidden" name="_captcha" value="false">
                     </form>
+
                 </div>
             </div>
 
